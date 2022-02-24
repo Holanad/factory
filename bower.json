@@ -1,0 +1,26 @@
+{
+  "name": "default project",
+  "authors": [
+    "volkov <volkov99.at@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1",
+    "aos": "^2.3.4",
+    "intl-tel-input": "^17.0.15",
+    "rellax": "*",
+    "jquery-validation": "^1.19.3",
+    "fancybox": "^3.5.7"
+  }
+}

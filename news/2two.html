@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="">
+    <base href="../">
+    <link rel="canonical" href="..//">
+    <!-- page description -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="Copyright" content="">
+    <!-- social networks -->
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <!-- styles files -->
+    <link rel="stylesheet" href="../../bower_components/intl-tel-input/build/css/intlTelInput.min.css">
+    <link rel="stylesheet" href="../../bower_components/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/media.css">
+</head>
+    <body>
+        <header class="header" id="header">
+            <div class="header-container">
+                <div class="header-top">
+                    <nav class="header-top-nav">
+                        <ul class="header-top-list">
+                            <li class="header-top-list__item">
+                                <a href="../../career.html" class="header-top-list__link">
+                                    Карьера
+                                </a>
+                            </li>
+                            <li class="header-top-list__item">
+                                <a href="../press-center.html" class="header-top-list__link">
+                                    Пресс-центр
+                                </a>
+                            </li>
+                            <li class="header-top-list__item">
+                                <a href="../contact.html" class="header-top-list__link">
+                                    Все контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-top-block">
+                        <div class="header-top-search">
+                            <input type="text" class="header-top-search__input">
+                            <button class="header-top-search__icon">
+                                <svg  width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9169 16.7222C7.71635 16.7222 5.11117 14.1182 5.11117 10.9167C5.11117 7.71622 7.71635 5.11111 10.9169 5.11111C14.1185 5.11111 16.7226 7.71622 16.7226 10.9167C16.7226 14.1182 14.1185 16.7222 10.9169 16.7222ZM21.6912 20.1982L17.2029 15.7099C18.2215 14.3789 18.8338 12.7196 18.8338 10.9177C18.8338 6.55089 15.2828 3 10.9169 3C6.55204 3 3 6.55194 3 10.9167C3 15.2824 6.55204 18.8333 10.9169 18.8333C12.7198 18.8333 14.3792 18.2211 15.7103 17.2025L20.1986 21.6907C20.4055 21.8976 20.6747 22 20.9449 22C21.2152 22 21.4854 21.8976 21.6912 21.6907C22.1029 21.2791 22.1029 20.6109 21.6912 20.1982Z" fill="#B3B3B3"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header-top-lang">
+                            <a href="../" class="header-top-lang__title header-top-lang__title_active">ru</a>
+                            <a href="../" class="header-top-lang__title">en</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom-start">
+                        <a href="../index.html" class="header-logo">
+                            <img src="assets/img/logo.svg" alt="logo" class="header-logo__icon">
+                        </a>
+                        <nav class="header-bottom-nav">
+                            <ul class="header-bottom-list">
+                                <li class="header-bottom-list__item">
+                                    <a href="../about.html" class="header-bottom-list__link">
+                                        О нас
+                                    </a>
+                                </li>
+                                <li class="header-bottom-list__item">
+                                    <a href="../product.html" class="header-bottom-list__link">
+                                        Продукты
+                                    </a>
+                                </li>
+                                <li class="header-bottom-list__item">
+                                    <a href="../maintenance.html" class="header-bottom-list__link">
+                                        Сопровождение
+                                    </a>
+                                </li>
+                                <li class="header-bottom-list__item">
+                                    <a href="../development.html" class="header-bottom-list__link">
+                                        Решения
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <button class="header-bottom__btn btn-transp modal-open">
+                        Связаться с нами
+                    </button>
+                    <button class="header-burger">
+                        <span class="header-burger__line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="intro-main no-padding-breadcumb">
+                <div class="container">
+                    <div class="intro-main-wrapper">
+                        <div class="breadcrumb">
+                            <a href="../index.html" class="breadcrumb-item">Главная</a>
+                            <svg class="breadcrumb-arrow" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5356 5.2427L0 1.70711L0.707107 1L4.94975 5.24264L4.94973 5.24265L4.94979 5.24272L0.707154 9.48536L4.71473e-05 8.77825L3.5356 5.2427Z" fill="#000"/>
+                            </svg>  
+                            <a href="../press-center.html" class="breadcrumb-item">Пресс-центр</a>
+                            <svg class="breadcrumb-arrow" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5356 5.2427L0 1.70711L0.707107 1L4.94975 5.24264L4.94973 5.24265L4.94979 5.24272L0.707154 9.48536L4.71473e-05 8.77825L3.5356 5.2427Z" fill="#000"/>
+                            </svg>                                
+                            <a href="../news.html" class="breadcrumb-item">новости</a>
+                            <svg class="breadcrumb-arrow" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5356 5.2427L0 1.70711L0.707107 1L4.94975 5.24264L4.94973 5.24265L4.94979 5.24272L0.707154 9.48536L4.71473e-05 8.77825L3.5356 5.2427Z" fill="#000"/>
+                            </svg>  
+                            <a href="2two.html" class="breadcrumb-item">Лечение первых пациентов </a>          
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="n-intro">
+                <div class="container">
+                    <div class="n-intro-wrapper">
+                        <div class="n-intro-header">
+                            <div class="n-intro-date">
+                                <span class="n-intro-date__day">26</span>
+                                <p class="n-intro-date__month">ноября, 2020</p>
+                            </div>
+                            <h1 class="n-intro__title">
+                                Лечение первых пациентов на линейном ускорителе Clinac® iX производства «Фабрики РТТ» началось в Сахалинском областном онкологическом диспансере. 
+                            </h1>
+                        </div>
+                        <p class="n-intro__descr">
+                            Медицинский линейный ускоритель Varian Clinac iX производства ООО «Фабрика радиотерапевтической техники» (входит в ГК «Р-Фарм») заработал сегодня в Сахалинском областном онкологическом диспансере. Поставка нового аппарата осуществлена в рамках федерального проекта «Борьба с онкологическими заболеваниями».
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="block-info">
+                <div class="container">
+                    <div class="block-info-wrapper">
+                        <p class="block-info__name">Пресс-релизы</p>
+                        <div class="block-info-content">
+                            <div style="display: none;" class="block-info-content__image">
+                                <img src="assets/img/news-page/one.jpg" alt="news">
+                            </div>
+                            <p class="block-info-content__text">
+                                Ожидается, что ежегодно проходить лечение на новом оборудовании смогут порядка 500 пациентов. 
+                                <br><br>
+                                «Обновленная версия модели Clinac iX с 2019 года выпускается на «Фабрике РТТ» по лицензии компании Varian. Поставка для Сахалинского региона стала одним из 13 заказов на эту модель, которые «Фабрика» получила в ходе реализации федерального проекта «Борьба с онкологическими заболеваниями», — сказал заместитель генерального директора ООО «Фабрика РТТ» Дмитрий Соснов. 
+                                <br><br>
+                                Линейный ускоритель Varian Clinac iX является одной из самых распространенных систем радиотерапии — во всем мире установлено более 6 тысяч аппаратов данной серии, что говорит о надежности устройства и востребованности среди медицинских специалистов. Кроме того, вся линейка выпускаемого оборудования соответствует требованиям госпрограммы по импортозамещению. Ежегодно пройти лечение на линейном ускорителе Clinac iX смогут около 500 пациентов Сахалинской области. 
+                                <br><br>
+                                «Наряду с хирургией и химиотерапией радиотерапия входит в тройку основных методов борьбы с онкологическими заболеваниями, в том числе применяется как самостоятельный метод лечения. Благодаря закупке нового линейного ускорителя те пациенты области, которых раньше отправляли на лечение в онкоцентры Дальнего Востока, Москвы и Санкт-Петербурга, получат в своем регионе высококачественное лечение с применением таких современных и эффективных методик лучевой терапии, как IMRT, IGRT, RapidArc», — рассказал главный врач Сахалинского областного диспансера Сергей Старцев.
+                            </p>
+                            <div class="block-info-content__footer">
+                                <div class="block-info-content__social">
+                                    <a target="_blank" href="https://vk.com/fabrikartt" class="block-info-content__link">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.01118 7.66658C6 9.17992 6 11.2866 6 15.5C6 19.7134 6 21.8201 7.01118 23.3334C7.44893 23.9886 8.01144 24.5511 8.66658 24.9888C10.1799 26 12.2866 26 16.5 26C20.7134 26 22.8201 26 24.3334 24.9888C24.9886 24.5511 25.5511 23.9886 25.9888 23.3334C27 21.8201 27 19.7134 27 15.5C27 11.2866 27 9.17992 25.9888 7.66658C25.5511 7.01144 24.9886 6.44893 24.3334 6.01118C22.8201 5 20.7134 5 16.5 5C12.2866 5 10.1799 5 8.66658 6.01118C8.01144 6.44893 7.44893 7.01144 7.01118 7.66658ZM12.8826 12.0001H11C11.0893 16.3725 13.233 19.0001 16.9913 19.0001H17.2042V16.4986C18.5853 16.6388 19.6296 17.6688 20.0487 19.0001H22C21.4641 17.0101 20.0556 15.91 19.1761 15.4896C20.0556 14.9711 21.2923 13.7098 21.5878 12.0001H19.8151C19.4304 13.3875 18.2898 14.6488 17.2042 14.7679V12.0001H15.4316V16.849C14.3323 16.5687 12.9444 15.2093 12.8826 12.0001Z" fill="#EC6602"/>
+                                        </svg>                                            
+                                    </a>
+                                    <a target="_blank" href="https://www.instagram.com/fabrikartt/">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.4972 11.9985C14.5692 11.9985 12.9958 13.5719 12.9958 15.5C12.9958 17.4281 14.5692 19.0015 16.4972 19.0015C18.4252 19.0015 19.9986 17.4281 19.9986 15.5C19.9986 13.5719 18.4252 11.9985 16.4972 11.9985ZM26.9988 15.5C26.9988 14.05 27.012 12.6132 26.9305 11.1658C26.8491 9.48469 26.4656 7.99268 25.2363 6.76335C24.0044 5.53139 22.515 5.15051 20.8339 5.06908C19.3839 4.98765 17.9471 5.00078 16.4998 5.00078C15.0499 5.00078 13.613 4.98765 12.1657 5.06908C10.4846 5.15051 8.99262 5.53402 7.76331 6.76335C6.53138 7.9953 6.1505 9.48469 6.06908 11.1658C5.98765 12.6158 6.00078 14.0526 6.00078 15.5C6.00078 16.9474 5.98765 18.3868 6.06908 19.8342C6.1505 21.5153 6.53401 23.0073 7.76331 24.2367C8.99525 25.4686 10.4846 25.8495 12.1657 25.9309C13.6157 26.0124 15.0525 25.9992 16.4998 25.9992C17.9498 25.9992 19.3866 26.0124 20.8339 25.9309C22.515 25.8495 24.007 25.466 25.2363 24.2367C26.4682 23.0047 26.8491 21.5153 26.9305 19.8342C27.0146 18.3868 26.9988 16.95 26.9988 15.5ZM16.4972 20.8875C13.5158 20.8875 11.1098 18.4814 11.1098 15.5C11.1098 12.5186 13.5158 10.1125 16.4972 10.1125C19.4785 10.1125 21.8846 12.5186 21.8846 15.5C21.8846 18.4814 19.4785 20.8875 16.4972 20.8875ZM22.1052 11.1501C21.4092 11.1501 20.847 10.5879 20.847 9.89184C20.847 9.19574 21.4092 8.63361 22.1052 8.63361C22.8013 8.63361 23.3634 9.19574 23.3634 9.89184C23.3636 10.0571 23.3312 10.2208 23.2681 10.3736C23.2049 10.5263 23.1123 10.6651 22.9954 10.782C22.8785 10.8989 22.7397 10.9915 22.587 11.0547C22.4342 11.1179 22.2705 11.1503 22.1052 11.1501Z" fill="#EC6602"/>
+                                        </svg>                                            
+                                    </a>
+                                    <a target="_blank" href="https://youtube.com/channel/UC26Is68PVrcHzrjdby8gGTg">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M27.7609 11.1998C27.7609 11.1998 27.5266 9.54512 26.8047 8.81855C25.8906 7.8623 24.8688 7.85762 24.4 7.80137C21.0438 7.55762 16.0047 7.55762 16.0047 7.55762H15.9953C15.9953 7.55762 10.9563 7.55762 7.6 7.80137C7.13125 7.85762 6.10938 7.8623 5.19531 8.81855C4.47344 9.54512 4.24375 11.1998 4.24375 11.1998C4.24375 11.1998 4 13.1451 4 15.0857V16.9045C4 18.8451 4.23906 20.7904 4.23906 20.7904C4.23906 20.7904 4.47344 22.4451 5.19062 23.1717C6.10469 24.1279 7.30469 24.0951 7.83906 24.1982C9.76094 24.3811 16 24.4373 16 24.4373C16 24.4373 21.0438 24.4279 24.4 24.1889C24.8688 24.1326 25.8906 24.1279 26.8047 23.1717C27.5266 22.4451 27.7609 20.7904 27.7609 20.7904C27.7609 20.7904 28 18.8498 28 16.9045V15.0857C28 13.1451 27.7609 11.1998 27.7609 11.1998ZM13.5203 19.1123V12.367L20.0031 15.7514L13.5203 19.1123Z" fill="#EC6602"/>
+                                        </svg>                                            
+                                    </a>
+                                    <a target="_blank" href="https://www.facebook.com/fabrikaRTT/">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 16.067C4 22.033 8.333 26.994 14 28V19.333H11V16H14V13.333C14 10.333 15.933 8.667 18.667 8.667C19.533 8.667 20.467 8.8 21.333 8.933V12H19.8C18.333 12 18 12.733 18 13.667V16H21.2L20.667 19.333H18V28C23.667 26.994 28 22.034 28 16.067C28 9.43 22.6 4 16 4C9.4 4 4 9.43 4 16.067Z" fill="#EC6602"/>
+                                        </svg>                                            
+                                    </a>
+                                </div>
+                                <div class="block-info-content__download">
+                                    <a href="../assets/press-relise/news-two.pdf" download>Скачать пресс-релиз</a>
+                                    <a href="../assets/img/news-page/one.jpg" download>Скачать фотографию</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="l-news">
+                <div class="container">
+                    <div class="l-news-wrapper">
+                        <h2 class="l-news__title title-section">Последние новости</h2>
+                        <ul class="l-news-list news-list tabs-show tabs-block">
+                            <li class="news-item">
+                                <a href="news/6six.html" class="news-item__link">
+                                    <div class="news-item-header">
+                                        <span class="news-item-header__date">
+                                            04.12.2021
+                                        </span>
+                                        <p class="news-item-header__chapter">
+                                            События
+                                        </p>
+                                    </div>
+                                    <h2 class="news-item__title">
+                                        Публикация «Р-Фарм» о Фабрике радиотерапевтической техники
+                                    </h2>
+                                    <div class="news-item-more">
+                                        <p class="news-item-more__text">Подробнее</p>
+                                        <svg class="news-item-more__arrow" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5356 5.2427L0 1.70711L0.707107 1L4.94975 5.24264L4.94973 5.24265L4.94979 5.24272L0.707154 9.48536L4.71473e-05 8.77825L3.5356 5.2427Z" fill="#006192"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="news-item">
+                                <a href="news/5five.html" class="news-item__link">
+                                    <div class="news-item-header">
+                                        <span class="news-item-header__date">
+                                            26.11.2021
+                                        </span>
+                                        <p class="news-item-header__chapter">
+                                            Новости партнеров
+                                        </p>
+                                    </div>
+                                    <h2 class="news-item__title">
+                                        Иркутский областной онкодиспансер и Междисциплинарный инновационный центр медицинского образования заключили соглашение о сотрудничестве по реализации научных и просветительских проектов
+                                    </h2>
+                                    <div class="news-item-more">
+                                        <p class="news-item-more__text">Подробнее</p>
+                                        <svg class="news-item-more__arrow" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5356 5.2427L0 1.70711L0.707107 1L4.94975 5.24264L4.94973 5.24265L4.94979 5.24272L0.707154 9.48536L4.71473e-05 8.77825L3.5356 5.2427Z" fill="#006192"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="news-item">
+                                <a href="news/4four.html" class="news-item__link">
+                                    <div class="news-item-header">
+                                        <span class="news-item-header__date">
+                                            26.11.2021
+                                        </span>
+                                        <p class="news-item-header__chapter">
+                                            Новости партнеров
+                                        </p>
+                                    </div>
+                                    <h2 class="news-item__title">
+                                        26 ноября состоялся круглый стол и мастер-класс по планированию и лечению ЗНО на системе радиотерапии Halcyon на базе отделения радиотерапии ФГБУ «НМИЦ онкологии им. Н.Н. Блохина»
+                                    </h2>
+                                    <div class="news-item-more">
+                                        <p class="news-item-more__text">Подробнее</p>
+                                        <svg class="news-item-more__arrow" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5356 5.2427L0 1.70711L0.707107 1L4.94975 5.24264L4.94973 5.24265L4.94979 5.24272L0.707154 9.48536L4.71473e-05 8.77825L3.5356 5.2427Z" fill="#006192"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="news-item">
+                                <a href="news/3three.html" class="news-item__link">
+                                    <div class="news-item-header">
+                                        <span class="news-item-header__date">
+                                            28.07.2021
+                                        </span>
+                                        <p class="news-item-header__chapter">
+                                            Новости партнеров
+                                        </p>
+                                    </div>
+                                    <h2 class="news-item__title">
+                                        ГАУЗ СО «СООД». Круглый стол, при поддержке компании «ФАБРИКА РТТ», на тему: «Практические аспекты переоснащения радиотерапевтической службы линейными ускорителями туннельного типа» 
+                                    </h2>
+                                    <div class="news-item-more">
+                                        <p class="news-item-more__text">Подробнее</p>
+                                        <svg class="news-item-more__arrow" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5356 5.2427L0 1.70711L0.707107 1L4.94975 5.24264L4.94973 5.24265L4.94979 5.24272L0.707154 9.48536L4.71473e-05 8.77825L3.5356 5.2427Z" fill="#006192"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                        <ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <div class="footer-info">
+                        <a href="../#" class="footer-logo">
+                            <img src="assets/img/logo-footer.svg" alt="logo" class="footer-logo__img">
+                        </a>
+                        <div class="footer-contact">
+                            <a href="../tel:+74955586375" class="footer-contact__number">+7 495 558 63 75</a>
+                            <a href="../mailto:info@frtt.ru" class="footer-contact__email">info@frtt.ru</a>
+                        </div>
+                        <p class="footer-address">141981, г. Дубна, ул. Академика Алексея Сисакяна, дом 5</p>
+                        <p class="footer-time">Пн-Пт: 10:00 — 19:00</p>
+                    </div>
+                    <nav class="footer-nav">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="../about.html" class="footer-item__link">О нас</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="../product.html" class="footer-item__link">Продукты</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="../" class="footer-item__link">Сопровождение</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="../development.html" class="footer-item__link">Решения</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="../career.html" class="footer-item__link">Карьера</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="../press-center.html" class="footer-item__link">Пресс-центр</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="../contact.html" class="footer-item__link">Все контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer-social">
+                        <p class="footer-social__text">Подпишитесь на нашу 
+                            рассылку, чтобы быть в курсе последних новостей!
+                        </p>
+                        <form action="" class="footer-social-form">
+                            <div class="footer-social-form__elem">
+                                <input name="email" placeholder="Ваш E-mail" type="email" class="footer-social-form__input">
+                            </div>
+                            <button class="footer-social-form__button btn-full">Подписаться</button>
+                        </form>
+                        <div class="footer-social-btn">
+                            <a target="_blank" href="https://vk.com/fabrikartt" class="footer-social-btn__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.1494 5.60421L21.2672 5.59961H26.732L27.8513 5.60421L29.2528 5.61954L29.9167 5.63028L30.5577 5.64714L31.1756 5.66861L31.7705 5.69315L32.344 5.72535L32.896 5.76368L33.425 5.80968L33.9356 5.86029C36.6036 6.16083 38.4329 6.80486 39.8129 8.18492C41.1929 9.56497 41.8369 11.3928 42.1374 14.0624L42.1895 14.5731L42.234 15.1036L42.2723 15.6556L42.303 16.2276L42.3413 17.1292L42.3597 17.7579L42.3797 18.7454L42.3935 20.1485L42.3996 21.6512L42.3981 26.7314L42.3935 27.8507L42.3781 29.2523L42.3674 29.9162L42.3505 30.5572L42.3291 31.1751L42.3045 31.7701L42.2723 32.3436L42.234 32.8956L42.188 33.4246L42.1374 33.9353C41.8369 36.6034 41.1929 38.4327 39.8129 39.8128C38.4329 41.1928 36.6051 41.8369 33.9356 42.1374L33.425 42.1895L32.8945 42.234L32.3425 42.2723L31.7705 42.303L30.8689 42.3413L30.2403 42.3597L29.2528 42.3797L27.8498 42.3935L26.3471 42.3996L21.2672 42.3981L20.1479 42.3935L18.7464 42.3781L18.0825 42.3674L17.4415 42.3505L16.8236 42.3291L16.2287 42.3045L15.6552 42.2723L15.1032 42.234L14.5742 42.188L14.0636 42.1374C11.3956 41.8369 9.56634 41.1928 8.18634 39.8128C6.80634 38.4327 6.16234 36.6049 5.86181 33.9353L5.80968 33.4246L5.76521 32.8941L5.72688 32.3421L5.69621 31.7701L5.65788 30.8685L5.63948 30.2398L5.61954 29.2523L5.60574 27.8492L5.59961 26.3465L5.60114 21.2663L5.60574 20.1469L5.62108 18.7454L5.63181 18.0815L5.64868 17.4405L5.67014 16.8225L5.69468 16.2276L5.72688 15.6541L5.76521 15.1021L5.81121 14.5731L5.86181 14.0624C6.16234 11.3943 6.80634 9.56497 8.18634 8.18492C9.56634 6.80486 11.3941 6.16083 14.0636 5.86029L14.5742 5.80815L15.1047 5.76368L15.6567 5.72535L16.2287 5.69468L17.1303 5.65635L17.7589 5.63794L18.7464 5.61801L20.1494 5.60421ZM16.0109 16.7919H11.8096C12.0089 26.3603 16.7929 32.1105 25.1803 32.1105H25.6556V26.6363C28.7376 26.943 31.0683 29.1971 32.0036 32.1105H36.3583C35.1623 27.7557 32.0189 25.3482 30.0563 24.4282C32.0189 23.2935 34.7789 20.5334 35.4383 16.7919H31.4823C30.6236 19.828 28.0783 22.5881 25.6556 22.8488V16.7919H21.6996V27.403C19.2463 26.7896 16.1489 23.8148 16.0109 16.7919Z" fill="#80B0C9"/>
+                                </svg> 
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/fabrikartt/" class="footer-social-btn__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24.7954 18.6644C21.4168 18.6644 18.6596 21.4217 18.6596 24.8004C18.6596 28.1791 21.4168 30.9363 24.7954 30.9363C28.1741 30.9363 30.9313 28.1791 30.9313 24.8004C30.9313 21.4217 28.1741 18.6644 24.7954 18.6644ZM43.1983 24.8004C43.1983 22.2595 43.2214 19.7416 43.0787 17.2053C42.936 14.2593 42.2639 11.6447 40.1097 9.49045C37.9509 7.33159 35.341 6.66414 32.395 6.52144C29.8542 6.37874 27.3363 6.40176 24.8 6.40176C22.2592 6.40176 19.7413 6.37874 17.2051 6.52144C14.2591 6.66414 11.6446 7.33619 9.49039 9.49045C7.33157 11.6493 6.66413 14.2593 6.52144 17.2053C6.37874 19.7462 6.40176 22.2641 6.40176 24.8004C6.40176 27.3367 6.37874 29.8592 6.52144 32.3955C6.66413 35.3415 7.33617 37.9561 9.49039 40.1103C11.6492 42.2692 14.2591 42.9366 17.2051 43.0793C19.7459 43.222 22.2638 43.199 24.8 43.199C27.3409 43.199 29.8588 43.222 32.395 43.0793C35.341 42.9366 37.9555 42.2646 40.1097 40.1103C42.2685 37.9515 42.936 35.3415 43.0787 32.3955C43.226 29.8592 43.1983 27.3413 43.1983 24.8004ZM24.7954 34.2414C19.571 34.2414 15.3546 30.0249 15.3546 24.8004C15.3546 19.5759 19.571 15.3594 24.7954 15.3594C30.0199 15.3594 34.2363 19.5759 34.2363 24.8004C34.2363 30.0249 30.0199 34.2414 24.7954 34.2414ZM34.6229 17.1776C33.4031 17.1776 32.4181 16.1926 32.4181 14.9727C32.4181 13.7529 33.4031 12.7679 34.6229 12.7679C35.8427 12.7679 36.8278 13.7529 36.8278 14.9727C36.8281 15.2624 36.7713 15.5493 36.6607 15.817C36.55 16.0846 36.3876 16.3278 36.1828 16.5327C35.978 16.7375 35.7348 16.8999 35.4671 17.0105C35.1994 17.1212 34.9126 17.178 34.6229 17.1776Z" fill="#80B0C9"/>
+                                </svg>
+                            </a>
+                            <a target="_blank" href="https://www.facebook.com/fabrikaRTT/" class="footer-social-btn__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.7998 24.107C4.7998 33.6526 11.7326 41.5902 20.7998 43.1998V29.3326H15.9998V23.9998H20.7998V19.7326C20.7998 14.9326 23.8926 12.267 28.267 12.267C29.6526 12.267 31.147 12.4798 32.5326 12.6926V17.5998H30.0798C27.7326 17.5998 27.1998 18.7726 27.1998 20.267V23.9998H32.3198L31.467 29.3326H27.1998V43.1998C36.267 41.5902 43.1998 33.6542 43.1998 24.107C43.1998 13.4878 34.5598 4.7998 23.9998 4.7998C13.4398 4.7998 4.7998 13.4878 4.7998 24.107Z" fill="#80B0C9"/>
+                                </svg>  
+                            </a>
+                            <a target="_blank" href="https://youtube.com/channel/UC26Is68PVrcHzrjdby8gGTg" class="footer-social-btn__link">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1406_19292)">
+                                        <path d="M42.8173 16.3197C42.8173 16.3197 42.4423 13.6722 41.2873 12.5097C39.8248 10.9797 38.1898 10.9722 37.4398 10.8822C32.0698 10.4922 24.0073 10.4922 24.0073 10.4922H23.9923C23.9923 10.4922 15.9298 10.4922 10.5598 10.8822C9.8098 10.9722 8.1748 10.9797 6.7123 12.5097C5.5573 13.6722 5.1898 16.3197 5.1898 16.3197C5.1898 16.3197 4.7998 19.4322 4.7998 22.5372V25.4472C4.7998 28.5522 5.1823 31.6647 5.1823 31.6647C5.1823 31.6647 5.5573 34.3122 6.7048 35.4747C8.1673 37.0047 10.0873 36.9522 10.9423 37.1172C14.0173 37.4097 23.9998 37.4997 23.9998 37.4997C23.9998 37.4997 32.0698 37.4847 37.4398 37.1022C38.1898 37.0122 39.8248 37.0047 41.2873 35.4747C42.4423 34.3122 42.8173 31.6647 42.8173 31.6647C42.8173 31.6647 43.1998 28.5597 43.1998 25.4472V22.5372C43.1998 19.4322 42.8173 16.3197 42.8173 16.3197ZM20.0323 28.9797V18.1872L30.4048 23.6022L20.0323 28.9797Z" fill="#80B0C9"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1406_19292">
+                                            <rect width="38.4" height="38.4" fill="white" transform="translate(4.7998 4.7998)"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>   
+                            </a>                                                                                 
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-bottom__copy">© 2021 «Фабрика РТТ»</p>
+                    <div class="footer-bottom-block">
+                        <a href="../political-cookie.html" class="footer-bottom__link">Политика cookie</a>
+                        <a href="../user-agreement.html" class="footer-bottom__link">Пользовательское соглашение</a>
+                        <a href="../political-privacy.html" class="footer-bottom__link">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a href="../#header" class="arrow-up">
+            <svg width="27" height="18" viewBox="0 0 27 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2083 5.107L21.7858 11.6845L20.4704 13L13.8928 6.42247L7.31547 12.9998L6 11.6844L13.8928 3.79152L13.893 3.79168L15.2083 5.107Z" fill="white"/>
+            </svg>                               
+        </a>
+        <div class="popup-application duty popup-one">
+            <div class="popup-application-wrapper">
+                <h2 class="popup-application__title">
+                    Оставьте заявку
+                </h2>
+                <p class="popup-application__descr">
+                    Специалисты Фабрики РТТ ответят вам на все интересующие вопросы
+                </p>
+                <form action="" class="popup-application-form">
+                    <div class="popup-application-form__elem">
+                        <input type="text" name="name" placeholder="ФИО" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input type="text" name="org" placeholder="Название организации" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input type="text" name="position" placeholder="Должность" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input type="text" name="theme" placeholder="Тема обращения" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input name="tel" type="tel" placeholder="(999) 999-99-99" class="popup-application-form__input input-tel__popup">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input name="email" type="email" placeholder="Ваш E-mail" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input name="comment" type="text" placeholder="Комментарий (необязательно)" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form-block">
+                        <button class="popup-application-form-block__btn btn-full">
+                            Оставить заявку
+                        </button>
+                        <p class="popup-application-form-block__political">
+                            Оставляя заявку, вы соглашаетесь с <a href="../political-privacy.html" class="popup-application-form-block__link">политикой 
+                            конфиденциальности</a> и <a href="../user-agreement.html" class="popup-application-form-block__link">политикой обработки персональных 
+                            данных</a>
+                        </p>
+                    </div>
+                </form>
+                <button class="popup-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1.41406" width="31" height="2" rx="1" transform="rotate(45 1.41406 0)" fill="#B3B3B3"/>
+                        <rect x="0.414062" y="22" width="31" height="2" rx="1" transform="rotate(-45 0.414062 22)" fill="#B3B3B3"/>
+                    </svg>                    
+                </button>
+            </div>
+        </div>
+        <div class="popup-application check-list-popup duty">
+            <div class="popup-application-wrapper">
+                <h2 class="popup-application__title">
+                    Получить чек-лист
+                </h2>
+                <p class="popup-application__descr">
+                    После заполнения формы чек-лист откроется в новом окне
+                </p>
+                <form action="" class="popup-application-form check-list-form">
+                    <div class="popup-application-form__elem">
+                        <input type="text" name="name" placeholder="ФИО" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input type="text" name="org" placeholder="Название организации" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input name="tel" type="tel" placeholder="(999) 999-99-99" class="popup-application-form__input input-tel__check-list">
+                    </div>
+                    <div class="popup-application-form__elem">
+                        <input name="email" type="email" placeholder="Ваш E-mail" class="popup-application-form__input">
+                    </div>
+                    <div class="popup-application-form-block">
+                        <button class="popup-application-form-block__btn btn-full">
+                            Оставить заявку
+                        </button>
+                        <p class="popup-application-form-block__political">
+                            Оставляя заявку, вы соглашаетесь с <a href="../political-privacy.html" class="popup-application-form-block__link">политикой 
+                            конфиденциальности</a> и <a href="../user-agreement.html" class="popup-application-form-block__link">политикой обработки персональных 
+                            данных</a>
+                        </p>
+                    </div>
+                </form>
+                <button class="popup-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1.41406" width="31" height="2" rx="1" transform="rotate(45 1.41406 0)" fill="#B3B3B3"/>
+                        <rect x="0.414062" y="22" width="31" height="2" rx="1" transform="rotate(-45 0.414062 22)" fill="#B3B3B3"/>
+                    </svg>                    
+                </button>
+            </div>
+        </div>
+        <div class="success-popup">
+            <div class="success-popup-wrapper">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.0008 67.2008C24.9608 67.2008 12.8008 55.0408 12.8008 40.0008C12.8008 24.9608 24.9608 12.8008 40.0008 12.8008C55.0408 12.8008 67.2008 24.9608 67.2008 40.0008C67.2008 55.0408 55.0408 67.2008 40.0008 67.2008ZM40.0008 16.0008C26.7208 16.0008 16.0008 26.7208 16.0008 40.0008C16.0008 53.2808 26.7208 64.0008 40.0008 64.0008C53.2808 64.0008 64.0008 53.2808 64.0008 40.0008C64.0008 26.7208 53.2808 16.0008 40.0008 16.0008Z" fill="#00B112"/>
+                    <path d="M36.7989 51.8393L22.8789 37.9193L25.1189 35.6793L36.7989 47.3593L54.8789 29.2793L57.1189 31.5193L36.7989 51.8393Z" fill="#00B112"/>
+                </svg>           
+                <p class="success-popup__title">
+                    Спасибо за заявку!
+                </p>         
+                <p class="success-popup__descr">
+                    Мы свяжемся с вами в ближайшее время и ответим на интересующие вопросы
+                </p>
+                <button class="popup-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1.41406" width="31" height="2" rx="1" transform="rotate(45 1.41406 0)" fill="#B3B3B3"/>
+                        <rect x="0.414062" y="22" width="31" height="2" rx="1" transform="rotate(-45 0.414062 22)" fill="#B3B3B3"/>
+                    </svg>                    
+                </button>
+            </div>
+        </div>
+        <div class="success-form">
+            <div class="success-form-wrapper">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.0008 67.2008C24.9608 67.2008 12.8008 55.0408 12.8008 40.0008C12.8008 24.9608 24.9608 12.8008 40.0008 12.8008C55.0408 12.8008 67.2008 24.9608 67.2008 40.0008C67.2008 55.0408 55.0408 67.2008 40.0008 67.2008ZM40.0008 16.0008C26.7208 16.0008 16.0008 26.7208 16.0008 40.0008C16.0008 53.2808 26.7208 64.0008 40.0008 64.0008C53.2808 64.0008 64.0008 53.2808 64.0008 40.0008C64.0008 26.7208 53.2808 16.0008 40.0008 16.0008Z" fill="#00B112"/>
+                    <path d="M36.7989 51.8393L22.8789 37.9193L25.1189 35.6793L36.7989 47.3593L54.8789 29.2793L57.1189 31.5193L36.7989 51.8393Z" fill="#00B112"/>
+                </svg>           
+                <p class="success-form__title">
+                    Спасибо за заявку!
+                </p>         
+                <p class="success-form__descr">
+                    Мы свяжемся с вами в ближайшее время и ответим на интересующие вопросы
+                </p>
+                <button class="popup-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1.41406" width="31" height="2" rx="1" transform="rotate(45 1.41406 0)" fill="#B3B3B3"/>
+                        <rect x="0.414062" y="22" width="31" height="2" rx="1" transform="rotate(-45 0.414062 22)" fill="#B3B3B3"/>
+                    </svg>                    
+                </button>
+            </div>
+        </div>
+        <!-- jQuery -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- slick-carousel -->
+        <script src="bower_components/slick-carousel/slick/slick.min.js"></script>
+        <!-- jQuery Validation -->
+        <script src="bower_components/jquery-validation/dist/jquery.validate.js"></script>
+        <!-- Fancybox -->
+        <script src="bower_components/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- intl-tel-input -->
+        <script src="bower_components/intl-tel-input/build/js/intlTelInput.js"></script>
+        <script src="bower_components/intl-tel-input/build/js/utils.js"></script>
+        <!-- Relax js -->
+        <script src="bower_components/rellax/rellax.js"></script>
+        <!-- sticksy js -->
+        <script src="https://cdn.jsdelivr.net/npm/sticksy@0.2.0/dist/sticksy.min.js"></script>
+        <!-- aos js -->
+        <script src="bower_components/aos/dist/aos.js"></script>
+        <!-- app js -->
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
